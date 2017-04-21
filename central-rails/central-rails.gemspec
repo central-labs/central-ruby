@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Central::Rails::VERSION
   s.authors     = ["zerosign"]
   s.email       = ["r1nlx0@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Central::Rails."
-  s.description = "TODO: Description of Central::Rails."
+  s.homepage    = "https://gitlab.bukalapak.io/yuri/central"
+  s.summary     = "Rails engine for central"
+  s.description = "Rails engine for central"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]

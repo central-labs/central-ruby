@@ -1,0 +1,11 @@
+--protected
+--exclude central-rails/config/
+--exclude central-rails/bin/
+--exclude central-rails/test/
+--exclude central-core/spec/
+--exclude central-core/bin/
+
+-
+CODE_OF_CONDUCT.md
+README.md
+LICENSE.txt

@@ -2,7 +2,19 @@
 Short description and motivation.
 
 ## Usage
-How to use my plugin.
+
+You need to declare :
+
+```ruby
+module SomeApp
+  class Application < Rails::Application
+    config.central_check = lambda do |request|
+      # do something with request ...
+    end
+  end
+end
+
+```
 
 ## Installation
 Add this line to your application's Gemfile:

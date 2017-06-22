@@ -31,6 +31,22 @@ Or install it yourself as:
 
 > client = Central::Client.new(ConnectionPool.new(size: 10, timeout: 2) { Redis.new })
 
+
+# Somewhere in the code :
+
+# declare feature :
+
+class LimitFeature
+
+  TimeUnit = [:minute, :hour, :day, :week, :month].freeze
+
+  include Central::Feature
+
+  feature :times, default: Integer, default: 5
+  feature :window, type: TimeUnit, default: :hour
+
+end
+
 ```
 
 ## Development
